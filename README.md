@@ -12,6 +12,6 @@ Si tratta della continuazione del progetto di un plotter verticale da parete con
 * Gabriel Mendonça
 * Joey Biancardi
 ## Info
-**Inizio:** 16.03.2018
-**Consegna:** 18.05.2018
+* **Inizio:** 16.03.2018
+* **Consegna:** 18.05.2018
 
