@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-03-05" view-index="0" gantt-divider-location="630" resource-divider-location="300" version="2.8.5" locale="it">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-03-05" view-index="0" gantt-divider-location="358" resource-divider-location="300" version="2.8.5" locale="it">
     <description/>
     <view zooming-state="default:4" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="372" order="0"/>
-        <field id="tpd4" name="Data d'inizio" width="91" order="1"/>
-        <field id="tpd5" name="Data di fine" width="163" order="2"/>
+        <field id="tpd3" name="Nome" width="324" order="0"/>
+        <field id="tpd4" name="Data d'inizio" width="15" order="1"/>
+        <field id="tpd5" name="Data di fine" width="15" order="2"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nome" width="210" order="0"/>
@@ -39,27 +39,32 @@
             <task id="9" name="Analisi dei requisiti" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
             <task id="11" name="Creazione documento di specifica" color="#8cb6ce" meeting="false" start="2018-03-23" duration="1" complete="0" expand="true"/>
             <task id="54" name="Consegna documento di specifica" color="#8cb6ce" meeting="true" start="2018-03-23" duration="0" complete="0" expand="true"/>
+            <task id="58" name="Capire come trasmettere dati tramite wi-fi da raspberry a fishino" meeting="false" start="2018-03-23" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="1" name="Progettazione" meeting="false" start="2018-03-16" duration="11" complete="0" expand="true">
+        <task id="1" name="Progettazione" meeting="false" start="2018-03-16" duration="21" complete="0" expand="true">
             <task id="14" name="Gannt" color="#8cb6ce" meeting="false" start="2018-03-16" duration="1" complete="0" expand="true"/>
             <task id="15" name="Progettazione interfaccia grafica" color="#8cb6ce" meeting="false" start="2018-03-23" duration="1" complete="0" expand="true"/>
-            <task id="16" name="Progettare metodo per modificare dimensione canvas" color="#8cb6ce" meeting="false" start="2018-03-23" duration="6" complete="0" expand="true"/>
-            <task id="17" name="Progettare canvas per permettere all'utente di disegnare" color="#8cb6ce" meeting="false" start="2018-03-23" duration="6" complete="0" expand="true"/>
+            <task id="16" name="Progettare metodo per modificare dimensione canvas" color="#8cb6ce" meeting="false" start="2018-03-23" duration="16" complete="0" expand="true"/>
+            <task id="17" name="Progettare canvas per permettere all'utente di disegnare" color="#8cb6ce" meeting="false" start="2018-03-23" duration="16" complete="0" expand="true"/>
+            <task id="60" name="Trovare metodo per trasmettere un intera immagine si fishino" meeting="false" start="2018-04-13" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="2" name="Implementazione" meeting="false" start="2018-03-30" duration="31" complete="0" expand="true">
-            <task id="20" name="Implementare interfaccia grafica" color="#8cb6ce" meeting="false" start="2018-03-30" duration="11" complete="0" expand="true"/>
-            <task id="21" name="Trovare libreria per convertire un'immagine vettoriale in gcode" color="#8cb6ce" meeting="false" start="2018-03-30" duration="1" complete="0" expand="true"/>
-            <task id="22" name="Riuscire a utilizzare la libreria per convertire immagini" color="#8cb6ce" meeting="false" start="2018-03-30" duration="11" complete="0" expand="true"/>
-            <task id="30" name="Unire sito internet e convertitore di immagini" color="#8cb6ce" meeting="false" start="2018-04-13" duration="1" complete="0" expand="true"/>
-            <task id="32" name="Creare canvas per modificare le dimensioni di disegno" color="#8cb6ce" meeting="false" start="2018-04-20" duration="11" complete="0" expand="true"/>
-            <task id="36" name="Creare un interfaccia grafica per fare un disegno vettoriale" color="#8cb6ce" meeting="false" start="2018-04-20" duration="11" complete="0" expand="true"/>
+        <task id="2" name="Implementazione" meeting="false" start="2018-04-13" duration="21" complete="0" expand="true">
+            <task id="56" name="Modificare il plotter in modo che funzioni" meeting="false" start="2018-04-13" duration="6" complete="0" expand="true"/>
+            <task id="20" name="Implementare interfaccia grafica" color="#8cb6ce" meeting="false" start="2018-04-20" duration="6" complete="0" expand="true"/>
+            <task id="21" name="Trovare libreria per convertire un'immagine vettoriale in gcode" color="#8cb6ce" meeting="false" start="2018-04-13" duration="1" complete="0" expand="true"/>
+            <task id="22" name="Riuscire a utilizzare la libreria per convertire immagini" color="#8cb6ce" meeting="false" start="2018-04-13" duration="6" complete="0" expand="true"/>
+            <task id="30" name="Unire sito internet e convertitore di immagini" color="#8cb6ce" meeting="false" start="2018-04-20" duration="1" complete="0" expand="true"/>
+            <task id="57" name="Implementare trasmissione di dati" color="#8cb6ce" meeting="false" start="2018-04-27" duration="6" complete="0" expand="true"/>
+            <task id="32" name="Creare canvas per modificare le dimensioni di disegno" color="#8cb6ce" meeting="false" start="2018-05-04" duration="6" complete="0" expand="true"/>
+            <task id="36" name="Creare un interfaccia grafica per fare un disegno vettoriale" color="#8cb6ce" meeting="false" start="2018-05-04" duration="6" complete="0" expand="true"/>
             <task id="43" name="Unire tutti i vari moduli" color="#8cb6ce" meeting="false" start="2018-05-11" duration="1" complete="0" expand="true"/>
+            <task id="61" name="Caricare il sito internet completo su raspberry" meeting="false" start="2018-05-11" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="3" name="Test" color="#8cb6ce" meeting="false" start="2018-04-13" duration="26" complete="0" expand="true">
-            <task id="45" name="Testare intefaccia grafica" color="#8cb6ce" meeting="false" start="2018-04-13" duration="6" complete="0" expand="true"/>
-            <task id="44" name="Testare convertitore vettoriale" color="#8cb6ce" meeting="false" start="2018-04-13" duration="6" complete="0" expand="true"/>
-            <task id="46" name="Testare metodo di disegno" meeting="false" start="2018-05-04" duration="6" complete="0" expand="true"/>
-            <task id="47" name="Test finale" color="#8cb6ce" meeting="false" start="2018-05-11" duration="6" complete="0" expand="true"/>
+        <task id="3" name="Test" color="#8cb6ce" meeting="false" start="2018-04-20" duration="21" complete="0" expand="true">
+            <task id="45" name="Testare intefaccia grafica" color="#8cb6ce" meeting="false" start="2018-04-20" duration="6" complete="0" expand="true"/>
+            <task id="44" name="Testare convertitore vettoriale" color="#8cb6ce" meeting="false" start="2018-04-20" duration="6" complete="0" expand="true"/>
+            <task id="46" name="Testare metodo di disegno" meeting="false" start="2018-05-11" duration="6" complete="0" expand="true"/>
+            <task id="47" name="Test finale" color="#8cb6ce" meeting="false" start="2018-05-18" duration="1" complete="0" expand="true"/>
         </task>
         <task id="48" name="Documentazione" meeting="false" start="2018-03-16" duration="51" complete="0" expand="true"/>
         <task id="49" name="Presentazione" meeting="false" start="2018-05-18" duration="6" complete="0" expand="true"/>
