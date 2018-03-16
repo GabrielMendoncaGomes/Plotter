@@ -1,4 +1,6 @@
-# Vertical Plotter 2.0
+# Vertical Plotter
+### Versione
+2.0
 ### Descrizione
 Si tratta della continuazione del progetto di un plotter verticale da parete con Arduino, che utilizzando una apposita penna agganciata ad un supporto, potrà, grazie all'aiuto di tre motori e dei fili di nylon, ricreare delle immagini da computer a fisico. 
 ### Obiettivi
